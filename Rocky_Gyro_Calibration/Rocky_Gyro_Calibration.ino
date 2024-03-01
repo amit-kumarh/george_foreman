@@ -16,7 +16,7 @@
 //      #define FIXED_ANGLE_CORRECTION (0.25)
 //    in your balancing sketch
 //
-// The procedure for natural frequency measurement: 
+// The procedure for natural frequency measurement: Q
 //     Carefully remove the wheels of the robot
 //     Place robot flat on the ground and compile and load the code
 //     After  "done uploading" is reported in the Arduino IDE,
