@@ -38,9 +38,9 @@ pretty(simplify(Hcloop))       % to display the total transfer function
 % Substitute parameters and solve
 % system parameters
 g = 9.81;
-l = 22*2.54/100   %effective length 
-a = 14;           %nominal motor parameters
-b = 1/400;        %nominal motor parameters
+l = 0.4195;   %effective length 
+a = 1/0.1044;           %nominal motor parameters
+b = 0.0031;        %nominal motor parameters
 
 Hcloop_sub = subs(Hcloop) % sub parameter values into Hcloop
 
@@ -49,7 +49,7 @@ Hcloop_sub = subs(Hcloop) % sub parameter values into Hcloop
 % e.g., want some oscillations, want fast decay, etc. 
 p1 = -1 + 2*pi*i    % dominant pole pair
 p2 = -1 - 2*pi*i    % dominant pole pair 
-p3 = -10
+p3 = -5
 
 
 % target characteristic polynomial
@@ -93,8 +93,8 @@ closed_loop_poles = vpa (roots(subs(chk_coeffs_denom)), npoly )
     eval(['TFH = ',TFstring]);
     figure (1)
     impulse(TFH);   %plot the impulse reponse
-    figure(2)
-    step(TFH)       %plot the step response
+    %figure(2)
+    %step(TFH)       %plot the step response
     
     
 

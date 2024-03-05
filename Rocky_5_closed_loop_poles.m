@@ -29,7 +29,7 @@ K = Kp + Ki/s;                  % TF of the PI angle controller
 M = a*b/(s+a);                  % TF of motor (1st order model) 
 % M = 1;                        % TF without motor
 %
-J = Jp + Ji/s + Ci/s^2;         % TF of controller around motor-combined PI of x and v
+J = Jp + Ji/s + Ci/s^2;         % TF of controller around motor-combinedz PI of x and v
 Mfb = M/(1+M*J);                % Black's formula to get tf for motor with PI feedback control 
 
 %  
