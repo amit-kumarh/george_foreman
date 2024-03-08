@@ -90,11 +90,11 @@ void BalanceRocky()
   // float Ci = -8709.9;   
   // float Jp = 2169.5;
   // float Ji = -19442;
-  float Kp = 6331.6;
-  float Ki = 30925;
-  float Ci = -7847.5;   
-  float Jp = 518.56;
-  float Ji = -5819.1;
+  float Kp = 6879.2;
+  float Ki = 33267;
+  float Ci = -7847.4;   
+  float Jp = 567.3923;
+  float Ji = -6306.2;
 
 
 

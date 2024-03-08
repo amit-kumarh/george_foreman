@@ -62,8 +62,8 @@ Hcloop_sub = subs(Hcloop) % sub parameter values into Hcloop
 p1 = -3.38 + 3.45*i   % dominant pole pair
 p2 = -3.38 - 3.45*i    % dominant pole pair 
 p3 = -10
-p4 = -4.1082 + 2.5461*i    % dominant pole pair
-p5 = -4.1082 - 2.5461*i       % dominant pole pair 
+p4 = -4.8332    % dominant pole pair
+p5 = -4.8332       % dominant pole pair 
 
 % target characteristic polynomial
 % if motor model (TF) is added, order of polynomial will increases
