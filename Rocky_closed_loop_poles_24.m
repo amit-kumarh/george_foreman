@@ -49,7 +49,7 @@ Hcloop_sub = subs(Hcloop) % sub parameter values into Hcloop
 % e.g., want some oscillations, want fast decay, etc. 
 p1 = -1 + 2*pi*i    % dominant pole pair
 p2 = -1 - 2*pi*i    % dominant pole pair 
-p3 = -5
+p3 = -10
 
 
 % target characteristic polynomial
